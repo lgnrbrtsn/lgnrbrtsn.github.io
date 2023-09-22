@@ -62,19 +62,24 @@
       color: lime;
       text-decoration: none;
       }
+    figure {
+      display: inline;
+      margin: auto;
+      float: left;   
+      }
     img {
-      float: left;
-      padding-top: .9em;
-      @media (max-width: 550px) { 
-         width: 100%; 
-         }
+      max-width: 40px;
+      padding-top: 12px;
+      width: 100%;
+      height: 100%;
+    }
   </style>
 </head>
 
 <body>
 <div>
-  <img class="logo"><img src="logo.png" height="55" />
-  <h1>Backpack is a bookclub for curious people.</h1>  
+  <figure><img src="logo.png"/></figure>
+  <h1>Backpack is a bookclub for curious people.</h1>
   <h2>Current series: <a href="https://bookshop.org/p/books/grace-can-lead-us-home-a-christian-call-to-end-homelessness-kevin-nye/18241462?ean=9781513810515">Grace Can Lead Us Home by Kevin Nye</a></h2>
   <ul>
     <li><a href="http://backpackbookclub.com">home</a></li>
