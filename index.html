@@ -28,13 +28,14 @@ body {
 h1 {
   max-width: 800px;
   font-family: Futura;
-  font-size: 4em;
+  font-size: 4.8em;
   font-weight: 900;
   line-height: 1.1em;
   text-align: left;
   color: black;
-  border-radius: 10px;
   margin: 30px;
+  padding-bottom: 37px;
+  border-bottom: thin solid;
 }
 h2 {
   color: black;
@@ -56,54 +57,47 @@ p {
   text-align: justify;
   }
 #Box {
-  background-color: whitesmoke;
   background-image: url(hessertimg.png);
   background-repeat: no-repeat;
-  background-position: 0% 20%;
-  background-size: 40%;
-  border: 0;
+  background-position: 0% 16%;
+  background-size: 25%;
   width: 800px;
   margin: 0 auto 0 auto;
-  padding: 0;
-  text-align: left;
-  border-radius: 10px;
-
   }
 #Banner {
-  position: relative;
-  border-radius: 10px;
-  background-color: #FF0054;
-  margin-bottom: -1.6em;
+  position: absolute;
+  width: 825px;
 }
 #Tag p {
-  padding: 5px;
+  padding-top: 205px;
   font-size: 1.5em;
+  font-weight: bolder;
   text-align: right;
   font-family: Avenir;
   color: black;
-  text-decoration: underline;
-  border-radius: 10px;
-  margin-bottom: -1.2em;
+  margin-bottom: -2.5em;
 }
-#Sidebar {
+#menu {
   position: absolute;
   height: auto;
-  padding-left: 10px;
-  padding-top: 20px;
+  padding-left: 30px;
+  padding-top: 0px;
   }
-#Sidebar a:link {
+#menu a:link {
   text-decoration: none;
   color: black;
   padding: 5px;
 }
-#Sidebar a:visited {
+#menu a:visited {
   text-decoration: none;
   color: black;
 }
-#Sidebar a:hover {
+#menu a:hover {
   text-decoration: none;
-  color: #F7B500;
-  background: hotpink;
+  color: red;
+}
+li {
+    display: inline;
 }
 ul { 
   font-family: futura;
@@ -111,7 +105,7 @@ ul {
   font-size: 1.5em;
   list-style-type: none;
   padding: 0px;
-  line-height: 2em;
+  line-height: 1.8em;
  }
 #Main {
   width: 600px;
@@ -120,10 +114,9 @@ ul {
   margin-left: 200px;
   margin-right: 0px;
   margin-bottom: 0px;
-  margin-top: 0px;
+  margin-top: 75px;
   font-size: 1.3em;
   color: black;
-  background-color: rgb(1, 131, 201, 80%);
   border-radius: 15px;
 }
 </style>
@@ -132,9 +125,10 @@ ul {
   <div id="Box">
     <div id="Banner">
       <h1>CHRIST AND THE END OF MEANING</h1>
-    </div>
+      </div>
     <div id="Tag"><p>The Theology of Passion</p></div>
-    <div id="Sidebar">
+    
+    <div id="menu">
       <ul>
         <li><a href="#">HOME</a></li>
         <li><a href="#">ABOUT</a></li>
