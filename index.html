@@ -68,13 +68,35 @@ p {
   text-decoration: none;
   color: black;
 }
-#menu a:hover {
+#menu a:hover, .dropdown:hover .dropbtn {
   text-decoration: none;
   color: red;
 }
 li {
     display: block;
     padding: 5px;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 ul { 
   font-family: futura;
@@ -86,7 +108,7 @@ ul {
   margin-top: auto;
  }
 #Main {
-  margin-top: -1em;
+  margin-top: -.5em;
   width: 600px;
   padding-left: 200px;
   padding-right: 100px;
@@ -102,6 +124,13 @@ ul {
     <div id="menu">
       <ul>
         <li><a href="#">HOME</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">THE BOOKS</a>
+          <div class="dropdown-content">
+            <a href="#">Christ and the End of Meaning</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
         <li><a href="#">ABOUT</a></li>
         <li><a href="#">COLOPHON</a></li>
         <img src="hessertimg.png" alt="saturn" width="190" height="450">
@@ -109,14 +138,11 @@ ul {
     </div>
 
     <div id="Main">
-          <h2>RELIGION, CULTURE, AND THE SEARCH FOR "MEANING"</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae placerat eros. Sed ac diam leo. Fusce elementum tortor ac sodales ultrices. Donec pellentesque vehicula erat eu faucibus. Donec in porta lacus, in consectetur libero. Etiam at arcu id eros euismod suscipit in dapibus eros. Maecenas faucibus metus ipsum. Sed hendrerit elementum nisi in posuere. Vestibulum maximus lorem in nisl tincidunt placerat. Curabitur sed pulvinar magna.</p>
-          <p>Nunc nunc ante, auctor id congue a, pulvinar interdum erat. Sed tincidunt lectus aliquam, convallis mauris eget, laoreet elit. Donec ut metus ut eros suscipit feugiat sit amet vitae libero. Morbi congue, ex aliquam vestibulum ultrices, sapien purus dapibus nulla, sit amet cursus metus ipsum in magna. Nullam porta mi id ante posuere, vitae pharetra orci dictum. Donec et tortor gravida, mattis ante in, lobortis nunc. Integer gravida rhoncus placerat. Nulla bibendum, est tincidunt placerat iaculis, ex ex lacinia ante, et euismod ex nunc id lorem. Duis volutpat porttitor aliquam.</p>
-          <p>Pellentesque id metus pulvinar, congue libero sed, sagittis mi. In mollis augue ex, vel aliquam arcu venenatis sit amet. Nunc auctor varius ligula, nec dignissim nibh molestie vel. Morbi malesuada id mi eget dictum. Maecenas massa diam, blandit a faucibus vestibulum, rhoncus quis purus. Etiam tincidunt, erat et porttitor placerat, ipsum enim ornare lorem, quis interdum nunc neque et felis. Maecenas vel congue massa. Nullam tincidunt vehicula sapien, sit amet accumsan libero facilisis a. Integer interdum congue scelerisque. Quisque turpis tellus, sagittis eu ipsum id, porta congue erat.</p>
-          <h2>Lorem Ipsum</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae placerat eros. Sed ac diam leo. Fusce elementum tortor ac sodales ultrices. Donec pellentesque vehicula erat eu faucibus. Donec in porta lacus, in consectetur libero. Etiam at arcu id eros euismod suscipit in dapibus eros. Maecenas faucibus metus ipsum. Sed hendrerit elementum nisi in posuere. Vestibulum maximus lorem in nisl tincidunt placerat. Curabitur sed pulvinar magna.</p>
-          <p>Nunc nunc ante, auctor id congue a, pulvinar interdum erat. Sed tincidunt lectus aliquam, convallis mauris eget, laoreet elit. Donec ut metus ut eros suscipit feugiat sit amet vitae libero. Morbi congue, ex aliquam vestibulum ultrices, sapien purus dapibus nulla, sit amet cursus metus ipsum in magna. Nullam porta mi id ante posuere, vitae pharetra orci dictum. Donec et tortor gravida, mattis ante in, lobortis nunc. Integer gravida rhoncus placerat. Nulla bibendum, est tincidunt placerat iaculis, ex ex lacinia ante, et euismod ex nunc id lorem. Duis volutpat porttitor aliquam.</p>
-          <p>Pellentesque id metus pulvinar, congue libero sed, sagittis mi. In mollis augue ex, vel aliquam arcu venenatis sit amet. Nunc auctor varius ligula, nec dignissim nibh molestie vel. Morbi malesuada id mi eget dictum. Maecenas massa diam, blandit a faucibus vestibulum, rhoncus quis purus. Etiam tincidunt, erat et porttitor placerat, ipsum enim ornare lorem, quis interdum nunc neque et felis. Maecenas vel congue massa. Nullam tincidunt vehicula sapien, sit amet accumsan libero facilisis a. Integer interdum congue scelerisque. Quisque turpis tellus, sagittis eu ipsum id, porta congue erat.</p>
+          <h2>A FEW SMALL BOOKS BY HUMANS ABOUT BEING HUMAN</h2>
+          <p>This site represents a simple project to document and share a few books precious and meaningful to me, Logan.</p>
+          <p>I've begun with the book <a href="#">Christ and the End of Meaning</a> by Paul Hessert. Other books will follow as I have time to add them here.</p>
+          <p>The project is (more or less) an effort by me to try to understand the books listed on this site, and to do it in public, with the hopes that others may become interested enough in the books covered here to go read them.</p>
+          <p>Each book gets a page with a short summary. Beyond that each chapter gets a page with an outline. I hope that these outlines will aid those who undertake to study the books, as well as helping me understand them better.</p>
     </div>
 </div>
 </body>
