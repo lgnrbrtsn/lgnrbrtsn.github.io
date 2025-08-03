@@ -1,0 +1,127 @@
+::-moz-selection { /* Code for Firefox */
+  background: lightgray;
+}
+::selection {
+  background: lightgray;
+}
+body {
+  margin: 50px;
+  font-family: Avenir;
+  text-align: left;
+  background-color: lightgray;
+  }
+#Content {
+  max-width: 800px;
+  margin: auto;
+}
+h1 {
+  min-width: 800px;
+  margin: auto;
+  font-family: Futura;
+  font-size: 4.5em;
+  font-weight: 900;
+  line-height: 1em;
+  text-align: left;
+  color: black;
+}
+h1 a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+h1 a:hover {
+  text-decoration: none;
+  color: lightslategray;
+}
+h2 {
+  color: black;
+  padding: 5px;
+  font-family: Futura;
+  font-size: 1.7em;
+  line-height: 1em;
+  margin-bottom: -.4em;
+}
+h4 {
+  min-width: 800px;
+  font-family: Futura;
+  font-size: 1.7em;
+  margin-top: 0em;
+  text-align: right;
+}
+p {
+  color: black;
+  font-weight: 100;
+  text-align: justify;
+  }
+#menu {
+  float: left;
+  height: auto;
+  border-radius: 10px;
+  }
+#menu a:link {
+  text-decoration: none;
+  color: black;
+}
+#menu a:visited {
+  text-decoration: none;
+  color: black;
+}
+#menu a:hover, .dropdown:hover .dropbtn {
+  text-decoration: none;
+  color: lightslategray;
+}
+li {
+    display: list-item;
+    padding: 5px;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightslategray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: lightgray;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ul { 
+  font-family: futura;
+  font-weight: bold;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 0px;
+  line-height: 1.5em;
+  margin-top: auto;
+ }
+#Main {
+  margin-top: -.5em;
+  width: 600px;
+  margin-left: 200px;
+  margin-right: 100px;
+  font-size: 1.3em;
+  color: black;
+}
+#Main a:link, a:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#Main a:hover {
+  text-decoration: none;
+  color: lightslategray;
+}
+#footnotes { 
+  margin-left: 200px;
+  border-top: thin solid;
+ }
