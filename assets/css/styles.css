@@ -21,7 +21,7 @@ body {
   border-bottom: thin solid lightslategray;
   }
 #Menu li {
-  display: inline;
+  display: inline-block;
   padding-inline: 16px;
 }
 #Menu ul { 
@@ -42,9 +42,10 @@ body {
 }
 #Menu a:hover {
   text-decoration: none;
-  color: lightslategray;
+  color: lightsteelblue;
 }
 #Main {
+  position: relative;
   margin-top: 4.5em;
   width: 485px;
   margin-left: 0px;
