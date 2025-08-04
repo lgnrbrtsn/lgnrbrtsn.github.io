@@ -52,6 +52,9 @@ p {
   font-weight: 100;
   text-align: justify;
   }
+sup {
+  font-size: .7em;
+}
 #menu {
   float: left;
   height: auto;
