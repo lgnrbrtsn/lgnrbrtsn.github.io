@@ -5,6 +5,7 @@
   background: lightgray;
 }
 body {
+  position: relative;
   font-family: Avenir;
   text-align: left;
   background-color: lightgray;
