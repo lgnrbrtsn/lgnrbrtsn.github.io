@@ -7,10 +7,10 @@
   color: white;
 }
 body {
-  position: relative;
   font-family: Avenir;
   text-align: left;
   background-color: lightgray;
+  min-width: 485px;
   }
 #Content {
   max-width: 485px;
