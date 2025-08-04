@@ -12,7 +12,6 @@ body {
   background-color: lightgray;
   }
 #Content {
-  width: 50%;
   max-width: 485px;
   margin: auto;
 }
