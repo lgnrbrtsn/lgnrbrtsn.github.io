@@ -1,8 +1,10 @@
 ::-moz-selection { /* Code for Firefox */
-  background: lightgray;
+  background: orangered;
+  color: white;
 }
 ::selection {
-  background: lightgray;
+  background: orangered;
+  color: white;
 }
 body {
   position: relative;
