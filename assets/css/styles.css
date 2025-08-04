@@ -112,6 +112,13 @@ ul {
   font-size: 1.3em;
   color: black;
 }
+#Main ul {
+  padding-left: 10px;
+  font-family: Avenir;
+  color: black;
+  font-size: 1em;
+  font-weight: 100;
+}
 #Main a:link, a:visited {
   text-decoration: none;
   color: black;
