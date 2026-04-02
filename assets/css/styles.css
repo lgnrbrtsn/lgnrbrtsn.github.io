@@ -12,18 +12,17 @@ body {
   background-color: lightgray;
   }
 #Content {
-  max-width: 485px;
+  max-width: 600px;
   margin: auto;
 }
 #Menu {
   float: left;
-  margin-top: -1em;
   border-top: thin solid lightslategray;
   border-bottom: thin solid lightslategray;
   }
 #Menu li {
   display: inline-block;
-  padding-inline: 16px;
+  padding-inline: 1em;
 }
 #Menu ul { 
   font-family: futura;
@@ -31,7 +30,6 @@ body {
   font-size: 1.5em;
   line-height: 0em;
   list-style-type: none;
-  padding: 0px;
  }
 #Menu a:link {
   text-decoration: none;
@@ -70,13 +68,12 @@ body {
   color: lightslategray;
 }
 h1 {
-  min-width: 485px;
+  min-width: 500px;
   margin: auto;
   font-family: Futura;
-  font-size: 5.3em;
-  font-weight: 900;
+  font-size: 6.5em;
   line-height: 1em;
-  text-align: left;
+  text-align: center;
   color: black;
 }
 h1 a:link, a:visited {
@@ -97,13 +94,6 @@ h2 {
 }
 h3 {
   font-size: 1.4;
-}
-h4 {
-  min-width: 485px;
-  font-family: Futura;
-  font-size: 1.2em;
-  margin-top: 0em;
-  text-align: right;
 }
 p {
   color: black;
