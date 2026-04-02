@@ -16,6 +16,7 @@ body {
   margin: auto;
 }
 #Menu {
+  margin-top: 1.3em;
   border-top: thin solid lightslategray;
   border-bottom: thin solid lightslategray;
   }
@@ -44,7 +45,7 @@ body {
 }
 #Main {
   position: relative;
-  margin-top: 4.5em;
+  margin-top: 2.3em;
   margin-left: 0px;
   margin-right: 0px;
   font-size: 1em;
