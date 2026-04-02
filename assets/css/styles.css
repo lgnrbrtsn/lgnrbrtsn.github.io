@@ -16,13 +16,12 @@ body {
   margin: auto;
 }
 #Menu {
-  margin-top: 1.3em;
   border-top: thin solid lightslategray;
   border-bottom: thin solid lightslategray;
   }
 #Menu li {
   display: inline-block;
-  padding-inline: 1em;
+  margin-inline: 1em;
 }
 #Menu ul { 
   font-family: futura;
@@ -52,11 +51,9 @@ body {
   color: black;
 }
 #Main ul {
-  padding-left: 10px;
   font-family: Avenir;
   color: black;
   font-size: 1em;
-  font-weight: 100;
 }
 #Main a:link, a:visited {
   text-decoration: none;
@@ -68,11 +65,9 @@ body {
   color: lightslategray;
 }
 h1 {
-  min-width: 100%;
-  margin: auto;
   font-family: Futura;
   font-size: 6.5em;
-  line-height: 1em;
+  line-height: .9em;
   text-align: center;
   color: black;
 }
