@@ -24,6 +24,7 @@ ul {
   overflow: hidden;
   font-family: Avenir;
   color: black;
+  border-bottom: thin solid;
  }
 ul li {
   float: left;
@@ -39,10 +40,6 @@ ul li a:hover {
 }
 #Main {
   font-size: 1em;
-  color: black;
-}
-#Main ul {
-  font-family: Avenir;
   color: black;
 }
 h2 {
