@@ -12,11 +12,10 @@ body {
   background-color: lightgray;
   }
 #Content {
-  max-width: 600px;
+  max-width: 650px;
   margin: auto;
 }
 #Menu {
-  float: left;
   border-top: thin solid lightslategray;
   border-bottom: thin solid lightslategray;
   }
