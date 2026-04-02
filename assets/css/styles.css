@@ -31,29 +31,19 @@ ul li {
 ul li a { 
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 10px;
   text-decoration: none;
 }
 ul li a:hover {
   color: lightsteelblue;
 }
 #Main {
-  margin-top: 50px;
   font-size: 1em;
   color: black;
 }
 #Main ul {
   font-family: Avenir;
   color: black;
-}
-#Main a:link, a:visited {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-#Main a:hover {
-  text-decoration: none;
-  color: lightslategray;
 }
 h2 {
   color: black;
@@ -70,6 +60,15 @@ p {
   color: black;
   font-weight: 100;
   }
+p a:link, a:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+p a:hover {
+  text-decoration: none;
+  color: lightslategray;
+}
 sup {
   font-size: .7em;
   line-height: 0;
