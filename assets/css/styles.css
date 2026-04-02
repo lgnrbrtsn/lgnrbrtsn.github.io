@@ -68,7 +68,7 @@ body {
   color: lightslategray;
 }
 h1 {
-  min-width: 500px;
+  min-width: 100%;
   margin: auto;
   font-family: Futura;
   font-size: 6.5em;
