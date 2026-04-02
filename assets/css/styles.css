@@ -19,20 +19,18 @@ body {
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  font-family: Avenir;
-  color: black;
-  border-bottom: thin solid;
- }
-ul li {
+  margin-left: 0x;
+  margin-top: 11px;
+  margin-right: 10px;
+  padding: 5px;
+  width: 70px;
+  background-color: orangered;
+  border-radius: 5px;
   float: left;
-}
-ul li a { 
+ }
+li a {
   display: block;
-  text-align: center;
-  padding: 5px 10px;
+  color: white;
   text-decoration: none;
 }
 ul li a:hover {
@@ -48,7 +46,7 @@ h2 {
   font-family: Futura;
   font-size: 1.7em;
   line-height: 1em;
-  margin-bottom: 0em;
+  margin-bottom: 5px;
 }
 h3 {
   font-size: 1.4;
@@ -57,15 +55,6 @@ p {
   color: black;
   font-weight: 100;
   }
-p a:link, a:visited {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-p a:hover {
-  text-decoration: none;
-  color: lightslategray;
-}
 sup {
   font-size: .7em;
   line-height: 0;
