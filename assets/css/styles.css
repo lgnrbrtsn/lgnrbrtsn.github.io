@@ -69,7 +69,12 @@ p {
   font-weight: 100;
   text-align: justify;
   }
-p a:link, a:visited {
+p a:link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+p a:visited {
   color: black;
   text-decoration: none;
   font-weight: bold;
