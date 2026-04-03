@@ -30,11 +30,16 @@ ul {
  }
 li a {
   display: block;
-  color: white;
   text-decoration: none;
 }
+ul li a:link {
+  color: white;
+}
 ul li a:hover {
-  color: lightsteelblue;
+  color: hotpink;
+}
+ul li a:visited {
+  color: white;
 }
 #Main {
   font-size: 1em;
@@ -60,9 +65,22 @@ p {
   font-weight: 100;
   text-align: justify;
   }
+p a:link, a:visited {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+p a:hover {
+  color: skyblue;
+  background-color: hotpink;
+}
 sup {
   font-size: .7em;
   line-height: 0;
+}
+sup a:link, a:visited, a:hover {
+  color: black;
+  text-decoration: none;
 }
 #footnotes { 
   border-top: thin solid;
