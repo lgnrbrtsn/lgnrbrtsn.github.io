@@ -41,7 +41,7 @@ ul li a:hover {
   color: black;
   position: relative; /* Makes text selection hug text column. */
 }
-h2 {
+h1 {
   color: black;
   padding: 0px;
   font-family: Futura;
@@ -49,8 +49,11 @@ h2 {
   line-height: 1em;
   margin-bottom: 5px;
 }
+h2 {
+  font-size: 1.4em;
+}
 h3 {
-  font-size: 1.4;
+  font-size: 1.2em;
 }
 p {
   color: black;
