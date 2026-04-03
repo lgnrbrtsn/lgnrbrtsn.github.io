@@ -39,6 +39,7 @@ ul li a:hover {
 #Main {
   font-size: 1em;
   color: black;
+  position: relative; /* Makes text selection hug text column. */
 }
 h2 {
   color: black;
