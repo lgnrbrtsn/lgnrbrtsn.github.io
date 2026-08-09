@@ -3,8 +3,6 @@
   color: white;
 }
 ::selection {
-  background: limegreen;
-  color: white;
 }
 body {
   margin-top: 50px;
@@ -41,12 +39,10 @@ ul li a:visited {
   color: white;
 }
 ul li a:hover {
-  color: deepskyblue;
-  background-color: hotpink;
-  font-weight: bolder;
+  background-color: skyblue;
 }
 #Main {
-  padding-left: 100px;
+  margin-left: 100px;
   font-size: 1em;
   color: black;
   position: relative; /* Makes text selection hug text column. */
@@ -59,13 +55,21 @@ h1 {
   line-height: 1em;
   margin-bottom: 5px;
 }
+h1 a:link {
+  text-decoration: none;
+}
+h1 a:hover {
+  text-decoration: none;
+}
+h1 a:visited {
+  text-decoration: none;
+}
 h2 {
   font-family: Futura;
   margin: 0;
   padding-top: 15px;
   font-size: 1.4em;
   line-height: 1em;
-
 }
 h3 {
   font-family: Futura;
@@ -78,7 +82,7 @@ p {
   }
 p a:link {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
 }
 p a:visited {
@@ -87,8 +91,8 @@ p a:visited {
   font-weight: bold;
 }
 p a:hover {
-  color: deepskyblue;
-  background-color: hotpink;
+  color: black;
+  background-color: skyblue;
 }
 ol li a:link, a:visited {
   color: black;
